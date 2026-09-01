@@ -10,7 +10,11 @@ I build resilient backend services, scalable REST APIs, and database architectur
 
 **About**
 
-I design and write backend software built for production reliability—handling high-traffic loads, structured data workflows, and secure API integrations. My background spans Python ecosystem engineering, database migrations with Alembic, and CI/CD pipelines.
+I’m a backend developer with a degree in Mechatronic Engineering and a passion for building reliable, production-ready systems. I spend most of my time working with Python, FastAPI, PostgreSQL, and Docker, focusing on secure API design, fast database queries, and clean system architecture.
+
+I enjoy taking ownership of the full backend pipeline—from writing clean REST APIs and setting up JWT authentication to containerizing apps and setting up CI/CD workflows. I’m always looking to refine how systems scale, whether that's digging into message queues, optimizing database schemas, or improving server performance.
+
+I’m currently looking for remote backend or contract roles where I can jump straight into the codebase, solve tough technical problems, and build software that works reliably under load.
 
 ---
 
