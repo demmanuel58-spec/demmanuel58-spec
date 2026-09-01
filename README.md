@@ -74,3 +74,15 @@ I am open to contributing to:
 * Open-source backend systems and API tooling
 * Python web frameworks and async libraries
 * Outreachy software engineering initiatives
+
+---
+
+**Connect**
+
+* **GitHub:** [demmanuel58-spec](https://github.com/demmanuel58-spec)
+* **LinkedIn:** [David Emmanuel Munyaka](https://linkedin.com/in/your-linkedin-handle)
+* **X (Twitter):** [@David_E_Munyaka](https://x.com/David_E_Munyaka)
+
+Open to remote backend roles, contract work, and engineering collaborations.
+
+
