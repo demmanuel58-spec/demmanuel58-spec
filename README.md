@@ -33,7 +33,7 @@ I’m currently looking for remote backend or contract roles where I can jump st
 * **Solution:** Developed a modular FastAPI backend utilizing SQLAlchemy, Alembic database migrations, and JWT authentication with fine-grained RBAC.
 * **Impact:** Delivered 100% test-backed API coverage, sub-50ms query responses, and containerized zero-downtime deployments via Docker Compose.
 * **Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker Compose · JWT
-* [Repository Link](https://github.com/demmanuel58-spec/campaign-management-api) · [Live API Demo](https://your-live-demo-link.com)
+* [Repository Link](https://github.com/demmanuel58-spec/campaign-management-api) 
 
 ---
 
@@ -42,7 +42,6 @@ I’m currently looking for remote backend or contract roles where I can jump st
 * **Solution:** Built an in-memory PDF manipulation pipeline leveraging PyMuPDF and ReportLab for precise coordinate targeting and vector layout preservation.
 * **Impact:** Reduced batch layout rendering errors by 90% while maintaining target font styling.
 * **Stack:** Python · PyMuPDF · ReportLab
-* [Repository Link](https://github.com/demmanuel58-spec/your-pdf-repo-name)
 
 ---
 
