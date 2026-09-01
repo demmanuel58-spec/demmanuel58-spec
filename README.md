@@ -1,6 +1,6 @@
 # David Emmanuel Munyaka
 
-**Backend Software Engineer | Python & Distributed Systems | Nairobi, Kenya**
+**Backend Software Engineer | Python & Distributed Systems - Nairobi, Kenya**
 
 I build resilient backend services, scalable REST APIs, and database architectures using Python, FastAPI, PostgreSQL, and Docker Compose. I focus on clean architecture, containerized deployments, and robust security patterns like JWT authentication and RBAC.
 
