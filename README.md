@@ -20,13 +20,21 @@ Currently exploring distributed systems, event-driven architecture, and scalable
 
 **Current Focus**
 
-* **Building:** Scalable Campaign Management APIs with audit logging, soft deletes, and role-based access control.
+* **Building:** Asynchronous distributed task queues with Redis brokers, worker concurrency, exponential backoff retries, and Dead-Letter Queue (DLQ) state persistence.
 * **Learning:** Advanced Message Brokers (RabbitMQ/Kafka) and Event-Driven Architectural Patterns.
 * **Maintaining:** Containerized PostgreSQL and FastAPI production templates.
 
 ---
 
 **Projects**
+
+**TaskPulse – Distributed Task Queue & Execution Engine**
+* **Problem:** Synchronous API execution of long-running operations leads to latency spikes, timeout failures, and poor user experience.
+* **Solution:** Engineered an asynchronous Producer-Broker-Worker task queue that offloads execution to Redis, processes jobs with background Python workers, and persists execution states in PostgreSQL.
+* **Impact:** Eliminates API latency (<50ms response times), ensures system resilience via exponential backoff retries, and isolates unprocessable jobs via Dead-Letter Queue (DLQ) routing.
+* **Stack:** Python · FastAPI · Redis · PostgreSQL · SQLAlchemy · Docker Compose · GitHub Actions
+* **[Repository Link](https://github.com/demmanuel58-spec/taskpulse)**
+
 
 **SysGuard: Enterprise Server Health & Incident Alerting Engine**
 * **Problem:** Unmonitored server resource exhaustion (CPU spikes, memory leaks, and disk space limits) leads to sudden production crashes and silent service outages.
