@@ -10,11 +10,11 @@ I build resilient backend services, scalable REST APIs, and database architectur
 
 **About**
 
-I’m a backend developer with a degree in Mechatronic Engineering and a passion for building reliable, production-ready systems. I spend most of my time working with Python, FastAPI, PostgreSQL, and Docker, focusing on secure API design, fast database queries, and clean system architecture.
+I am a Backend Software Engineer focused on building reliable distributed systems with Python, FastAPI and PostgreSQL.
 
-I enjoy taking ownership of the full backend pipeline—from writing clean REST APIs and setting up JWT authentication to containerizing apps and setting up CI/CD workflows. I’m always looking to refine how systems scale, whether that's digging into message queues, optimizing database schemas, or improving server performance.
+I enjoy designing APIs, optimizing databases, automating infrastructure, and building production-ready backend services.
 
-I’m currently looking for remote backend or contract roles where I can jump straight into the codebase, solve tough technical problems, and build software that works reliably under load.
+Currently exploring distributed systems, event-driven architecture, and scalable backend design.
 
 ---
 
