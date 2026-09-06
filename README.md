@@ -28,6 +28,15 @@ I’m currently looking for remote backend or contract roles where I can jump st
 
 **Projects**
 
+**SysGuard: Enterprise Server Health & Incident Alerting Engine**
+* **Problem:** Unmonitored server resource exhaustion (CPU spikes, memory leaks, and disk space limits) leads to sudden production crashes and silent service outages.
+* **Solution:** Built a zero-dependency, modular POSIX monitoring sidecar that continuously inspects host metrics, captures diagnostic snapshots of offending process trees, and dispatches real-time webhook alerts.
+* **Impact:** Prevents unexpected server downtime with kernel-level concurrency locking (`flock`), defensive error handling (`set -euo pipefail`), and native `systemd` background automation.
+* **Stack:** Linux / POSIX Shell - Bash - Systemd - Curl - Webhooks (Slack/Discord)
+* [Repository Link](https://github.com/dammanuel58-spec/sysguard)
+
+---
+
 **Campaign Management API**
 * **Problem:** Marketing workflows require secure multi-role access control, soft deletion, and verifiable action tracking across complex campaigns.
 * **Solution:** Developed a modular FastAPI backend utilizing SQLAlchemy, Alembic database migrations, and JWT authentication with fine-grained RBAC.
