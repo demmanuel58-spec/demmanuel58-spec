@@ -43,7 +43,6 @@ Currently exploring distributed systems, event-driven architecture, and scalable
 * **Stack:** Linux / POSIX Shell - Bash - Systemd - Curl - Webhooks (Slack/Discord)
 * [Repository Link](https://github.com/demmanuel58-spec/sysguard)
 
----
 
 **Campaign Management API**
 * **Problem:** Marketing workflows require secure multi-role access control, soft deletion, and verifiable action tracking across complex campaigns.
@@ -52,7 +51,6 @@ Currently exploring distributed systems, event-driven architecture, and scalable
 * **Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker Compose · JWT
 * [Repository Link](https://github.com/demmanuel58-spec/campaign-management-api) 
 
----
 
 **High-Throughput PDF Manipulation Engine**
 * **Problem:** Legacy PDF layout tools break vector graphics, custom borders, and embedded fonts during programmatic text modifications.
