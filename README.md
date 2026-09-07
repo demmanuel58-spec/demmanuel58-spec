@@ -18,15 +18,23 @@ Currently exploring distributed systems, event-driven architecture, and scalable
 
 ---
 
-**Current Focus**
+**Current Focus:**
 
-* **Building:** Asynchronous distributed task queues with Redis brokers, worker concurrency, exponential backoff retries, and Dead-Letter Queue (DLQ) state persistence.
-* **Learning:** Advanced Message Brokers (RabbitMQ/Kafka) and Event-Driven Architectural Patterns.
-* **Maintaining:** Containerized PostgreSQL and FastAPI production templates.
+* **Building:** Asynchronous multi-service architectures, RabbitMQ topic exchanges, and KEDA autoscaler policies.
+* **Learning:** Advanced distributed observability (OpenTelemetry, W3C trace propagation) and Kubernetes operator patterns.
+* **Mastering:** Production-grade CI/CD pipelines with Trivy security scans and GitHub Container Registry (GHCR) deployments.
 
 ---
 
 **Projects**
+
+**Distributed Event & Notification Engine**
+* **Problem:** Synchronous notification dispatches and monolithic auth create tight coupling, high API latency, and single-point-of-failure risks.
+* **Solution:** Engineered a multi-service architecture using an API Gateway reverse proxy, central OAuth2/JWT authentication, and a RabbitMQ topic exchange to handle asynchronous background dispatches.
+* **Impact:** Isolated event consumers with manual acknowledgements (`basic_ack`), configured Dead-Letter Queues (DLQ) for failed payloads, and enabled KEDA autoscaling based on queue depth.
+* **Stack:** Python · FastAPI · RabbitMQ · Docker Compose · Kubernetes · KEDA · GitHub Actions
+* [Repository Link](https://github.com/demmanuel58-spec/event-notification-engine)
+
 
 **TaskPulse – Distributed Task Queue & Execution Engine**
 * **Problem:** Synchronous API execution of long-running operations leads to latency spikes, timeout failures, and poor user experience.
@@ -72,8 +80,8 @@ Currently exploring distributed systems, event-driven architecture, and scalable
 **Technical Skills**
 
 * **Languages & Frameworks:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic
-* **Tools & Infrastructure:** Docker, Docker Compose, Git, Linux/Unix Shell, Git CLI
-* **Architectural Patterns:** Microservices, Event-Driven Architecture, MVC, Message Broker, Pipe-Filter
+* **Tools & Infrastructure:** Docker, Docker Compose, RabbitMQ, Kubernetes, KEDA, Git, Linux (CLI)
+* **Architectural Patterns:** Microservices, Event-Driven Systems, API Gateway, Message Queuing, Rate Limiting, Pub/Sub
 
 ---
 
